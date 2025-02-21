@@ -1,0 +1,92 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #ddd;
+    background-image: url("https://i.imgur.com/7l5Y87D.png"); /* Камуфляжний фон */
+    background-repeat: repeat;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #555;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+}
+
+header .slogan {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #aaa;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #bbb;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #90EE90;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #555;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #888;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #555;
+}
